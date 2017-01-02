@@ -1,0 +1,33 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Popular Movies Udacity</string>
+    <string name="title_activity_photo_detail">Photo Detail</string>
+
+    <!--menu item names-->
+    <string name ="most_popular">Most Popular</string>
+    <string name ="most_highly_rated">Highest Rated</string>
+
+    <!--Strings from /configuration and API key to build URIs specified in MainActivity.java-->
+    <string name="get_movie_list_base_url">
+        <xliff:g>http://api.themoviedb.org/3/movie</xliff:g>
+    </string>
+    <string name="popular">
+        <xliff:g>popular</xliff:g>
+    </string>
+    <string name="top_rated">
+        <xliff:g>top_rated</xliff:g>
+    </string>
+    <string name ="get_movie_base_url">
+        <xliff:g>http://image.tmdb.org/t/p</xliff:g>
+    </string>
+    <string name="poster_size_path">
+        <xliff:g>w185</xliff:g>
+    </string>
+    <!--Add your own API Key here (between xliff:g tags)-->
+    <string name="api_key">
+        <xliff:g></xliff:g>
+    </string>
+
+    <!--Photo Detail Labels-->
+    <string name="release_date">Release Date: </string>
+    <string name="vote_average">Vote Average: </string>
+</resources>
